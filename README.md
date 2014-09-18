@@ -1,5 +1,9 @@
 ## Angular-trains (inspired by angular-base)
 
+# What is this?
+## angular-trains
+AngularJS application to visualise the UK train from specific stations: Using RWD, RequireJS, SCSS, Bower and Grunt
+
 # Getting Started
 To get you started you can simply clone the angular-base repository and install the dependencies:
 
