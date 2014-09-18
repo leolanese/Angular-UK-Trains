@@ -220,4 +220,4 @@ You can also ask Karma to do a single run of the tests and then exit.
 <a href="http://twitter.com/LeoLaneseltd" target="_blank">http://twitter.com/LeoLaneseltd</a><br>
 
 # Questions / Suggestion?<br>
-<a href="mail:to">javscript@leolanese.com</a><br>
+<a href="mail:to">javascript@leolanese.com</a><br>
