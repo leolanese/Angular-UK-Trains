@@ -17,20 +17,21 @@ define(['angular'], function (angular) {
 
         var factory = {};
 
+          // register and get your personal apu_key and app_id
         factory.caca = function() {
             return $http({
                 method: 'JSONP',
-                url: 'http://transportapi.com/v3/uk/train/station/BIS/live.json?api_key=XXX&app_id=32c7f622&callback=JSON_CALLBACK'
+                url: 'http://transportapi.com/v3/uk/train/station/BIS/live.json?XXX&callback=JSON_CALLBACK'
             });
         };
 
-
-      factory.caca2 = function() {
-          return $http({
-              method: 'JSONP',
-              url: 'http://transportapi.com/v3/uk/train/station/LST/live.json?api_key=XXX&app_id=32c7f622&callback=JSON_CALLBACK'
-          });
-      };
+          // register and get your personal apu_key and app_id
+          factory.caca2 = function() {
+              return $http({
+                  method: 'JSONP',
+                  url: 'http://transportapi.com/v3/uk/train/station/LST/live.json?XXX&callback=JSON_CALLBACK'
+              });
+          };
 
         return factory;
     })
