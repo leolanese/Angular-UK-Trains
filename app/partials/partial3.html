@@ -1,0 +1,24 @@
+<span>{{ t3 }}</span>
+
+<h1 data-ng-controller="styleCtrl" ng-class="['title', classVar]">{{appSettings.title}} {{t100}}</h1>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-4 col-sm-6" ng:repeat="item in startList" data-ng-controller="toggleclass" ng-class="{color: false}">
+            <div class="flex">
+                <div class="box">
+                    <h2>{{ startList.station_name }}</h2>
+                    <h4>TO {{ startList.departures.all[$index].destination_name }}</h4>
+                    </h4>Platform: {{ startList.departures.all[$index].platform }}</h4>
+                    </h4>TIME: {{ startList.departures.all[$index].aimed_departure_time}}</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
