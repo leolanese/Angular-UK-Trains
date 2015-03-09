@@ -18,6 +18,7 @@ define(['angular'], function (angular) {
         var factory = {};
 
           // register and get your personal apu_key and app_id
+          // enter your ?api_key=XXX&app_id=XXX&callback=JSON_CALLBACK
         factory.caca = function() {
             return $http({
                 method: 'JSONP',
@@ -26,6 +27,7 @@ define(['angular'], function (angular) {
         };
 
           // register and get your personal apu_key and app_id
+          // enter your ?api_key=XXX&app_id=XXX&callback=JSON_CALLBACK
           factory.caca2 = function() {
               return $http({
                   method: 'JSONP',
