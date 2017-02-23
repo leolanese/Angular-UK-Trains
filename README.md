@@ -209,9 +209,6 @@ You can also ask Karma to do a single run of the tests and then exit.
 # My Portfolio<br>
 <a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a><br>
 
-# My LAB<br>
-<a href="http://www.rwdlab.com" target="_blank">http://www.rwdlab.com</a><br>
-
 # My Blog:<br>
 <a href="http://www.leolanese.com/blog" target="_blank">www.leolanese.com/blog</a><br>
 
